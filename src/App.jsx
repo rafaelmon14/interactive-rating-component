@@ -19,7 +19,7 @@ function App() {
   
   return (
 
-  <body className="flex flex-col items-center justify-center min-h-screen bg-Very_Dark_Blue ">  
+  <div className="flex flex-col items-center justify-center min-h-screen bg-Very_Dark_Blue ">  
   {showDiv1 ? (
 
     <div className="flex flex-col w-[330px] h-[365px] p-7 rounded-2xl bg-[#1E232A] text-White font-overpass sm:rounded-3xl sm:p-9 sm:w-[415px] sm:h-[415px]"> 
@@ -59,7 +59,7 @@ function App() {
     </div> 
   </div>
   )}
-    </body>
+    </div>
   )
 }
 
